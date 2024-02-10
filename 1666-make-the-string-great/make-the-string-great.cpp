@@ -18,10 +18,6 @@ public:
             }
         }
 
-        if(st.size() == 0){
-            return "";
-        }
-
         string ans;
         while(!st.empty()){
             ans.push_back(st.top());
